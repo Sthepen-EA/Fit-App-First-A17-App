@@ -1,0 +1,8 @@
+.welcome-container {
+  text-align: center;
+  background-image: url("../../../assets/images/bg-img.jpg");
+  background-attachment: fixed; /*esto es para que el bg esté fijo pq haremos el efecto paradax, que la imagen se quede del mismo tamaño cuando hacemos zoom*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

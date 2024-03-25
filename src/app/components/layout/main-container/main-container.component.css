@@ -1,0 +1,11 @@
+.main-container {
+  display: flex; /*trabajaremos con flexbox*/
+  gap: 2rem; /*separa los elementos dentro del display flex*/
+  flex-flow: column nowrap; /*estará hecho en columnas, no wrap para que no se vaya para abajo*/
+  align-items: center; /**/
+  justify-content: center; /**/
+  margin: 0 auto; /**/
+  padding: 1rem; /*padding horizontal y vertical*/
+  height: 20vh; /*altura minima de 20h*/
+  min-height: 300px; /*minima altura de 300px para ocupar el espacio*/
+}

@@ -1,0 +1,14 @@
+<a
+  [href]="socialMediaElement.link"
+  target="_blank"
+  class="social-media-element"
+  [matTooltip]="socialMediaElement.name"
+>
+  <!--ngSrc es el nuevo optimizador de imagenes de angular, para que funcione debemosdarle un w y h definido-->
+  <img
+    width="50"
+    height="50"
+    [ngSrc]="socialMediaElement.imgPath"
+    [alt]="socialMediaElement.name"
+  />
+</a>
