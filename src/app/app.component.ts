@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { TableComponent } from './components/table/table.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
     ToolbarComponent,
     RouterOutlet,
     SocialMediaComponent,
+    TableComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
